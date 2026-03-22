@@ -58,9 +58,9 @@ jobs:
     - name: Logging in to Docker
       run: docker login ghcr.io -u Imre78 -p ${{ github.token }}
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ghcr.io/Imre78/cubix/cloudnative/demo:actions  
+      run: docker build . --file Dockerfile --tag ghcr.io/imre78/cubix-cloudnative-demo:actions  
     - name: Publish the Docker image
-      run: docker push ghcr.io/Imre78/cubix/cloudnative/demo:actions
+      run: docker push ghcr.io/imre78/cubix-cloudnative-demo:actions
                   
 
       
