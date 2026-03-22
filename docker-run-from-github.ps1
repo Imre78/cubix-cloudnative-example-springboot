@@ -1,1 +1,1 @@
-docker run -p 8080:8080 --rm --name demo -it ghcr.io/Imre78/cubix/cloudnative/demo:actions
+docker run --platform linux/amd64 -p 8080:8080 --rm --name demo -it ghcr.io/imre78/cubix-cloudnative-demo:actions
